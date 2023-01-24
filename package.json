@@ -2,6 +2,9 @@
   "name": "fluent-ffmpeg",
   "version": "2.1.3",
   "description": "A fluent API to FFMPEG (http://www.ffmpeg.org)",
+  "publishConfig": {
+    "registry": "https://packages.tools.genvis.co/repository/npm-local"
+  },
   "keywords": [
     "ffmpeg"
   ],
