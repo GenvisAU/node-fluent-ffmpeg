@@ -5,6 +5,7 @@
   "publishConfig": {
     "registry": "https://packages.tools.genvis.co/repository/npm-local"
   },
+  "types": "./lib/index.d.ts",
   "keywords": [
     "ffmpeg"
   ],
