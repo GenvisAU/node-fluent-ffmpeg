@@ -318,6 +318,7 @@ declare namespace Ffmpeg {
         map(spec: string): FfmpegCommand;
         updateFlvMetadata(): FfmpegCommand;
         flvmeta(): FfmpegCommand;
+        adaptationSets(sets: string): FfmpegCommand;
 
         // options/custom
         addInputOption(options: string[]): FfmpegCommand;
